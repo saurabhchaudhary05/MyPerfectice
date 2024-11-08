@@ -1,0 +1,3055 @@
+TEST 1 Learn Java: Operators and Variables
+
+Q1
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int sum = 200 + 300;
+    int divide = 250 / 50;
+    int difference = 500 - 100;
+    int product = a * 50;
+    System.out.println(sum);
+    System.out.println(divide);
+    System.out.println(difference);
+    System.out.println(product);
+  }
+}
+
+Q2
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {   	
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int value = (((a + 8) * 2) - 11) / 5;
+    System.out.println(value);
+  }
+}
+
+Q3
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int first = a;
+    int second = first;
+    System.out.println(second);
+  }
+}
+
+Q4
+import java.util.*;
+class TestClass
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int G = sc.nextInt();
+    int M = 100;
+    int MPG = M / G;
+    System.out.println(MPG);
+  }
+}
+
+
+TEST 2 Operators and Variables
+
+Q1
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    System.out.println(a+100);
+  }
+}
+
+Q2
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int num = sc.nextInt();
+    System.out.println(num/5);
+    System.out.println(num + 15);
+    System.out.println(num * 4);
+    System.out.println(num % 6);
+    System.out.println(num * num * num);
+  }
+}
+
+Q3
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    System.out.println((a + 50) / 2);
+  }
+}
+
+Q4
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int num = sc.nextInt();
+    System.out.println(((((num + 30) * 5) - 10) / 5));
+    System.out.println((((num / 5) * 3) + 20));
+    System.out.println(((num + 15) * 2) - 50);
+  }
+}
+
+Q5
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String args[])
+  {      
+    Scanner sc = new Scanner(System.in);
+    int side = sc.nextInt();
+    int area = side * side;
+    System.out.println(area);
+  }
+}
+
+Q6
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int length = sc.nextInt();
+    int width = 5;
+    int area = length * width;
+    System.out.println(area);
+  }
+}
+
+Q7
+import java.util.*;
+class TestClass
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int x = 6;
+    int y = sc.nextInt();
+    System.out.println(x*x + y*y);
+  }
+}
+
+Q8
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[])
+  {
+    Scanner sc = new Scanner(System.in);
+    int distance = 320;
+    int time = sc.nextInt();
+    int speed = distance / time;
+    System.out.println(speed);
+  }
+}
+
+Q9
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int C = 50;
+    int D = 30;
+    int H = sc.nextInt();
+    int Z = (2 * C * D) / H;
+    int Q = Z * Z;      
+
+    System.out.println(Q);
+  }
+}
+
+Q10
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {
+    int principal;
+    int rate;
+    int time;
+    Scanner sc = new Scanner(System.in); 
+    principal=sc.nextInt();
+    rate=sc.nextInt();
+    time=sc.nextInt();
+
+    int simple_interest = (principal * rate * time) / 100;
+    System.out.println(simple_interest);
+  }
+}
+
+
+TEST 3 Strings, List, Tuples and Maps
+
+
+Q1
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    String greeting  = sc.nextLine();
+    System.out.println(greeting);
+  }
+}
+
+Q2
+
+class TestClass 
+{
+	public static void main(String args[]) 
+    {
+    	String text  = "Salesman: Good evening, sir. How can I help you?\n" +
+                "Customer: I have come to buy a pair of shoes.";
+        System.out.println(text);
+    }
+}
+
+Q3
+
+class TestClass
+{
+	public static void main(String args[])
+    {
+    	String text  = "He said: it\'s over, isn\'t it?";
+        System.out.println(text);
+    }
+}
+
+
+Q4
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int score = sc.nextInt();
+    String text = String.format("I scored %d points", score);
+    System.out.println(text);
+  }
+}
+
+Q5
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[])
+  {
+    Scanner sc = new Scanner(System.in); 
+    String str1 = sc.nextLine(); 
+    String str2 = sc.nextLine(); 
+    System.out.println(str1 +" "+ str2);
+  }
+}
+
+Q6
+
+import java.util.*;
+
+class TestClass
+{
+  public static void main(String args[])
+  {
+    String str = "*";
+    Scanner sc = new Scanner(System.in); 
+    int num = sc.nextInt();
+
+    String newstr = String.join("", Collections.nCopies(num, str));
+    System.out.println(newstr);
+  }
+}
+
+Q7
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String args[]) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+
+    //expression to add a and 5
+    System.out.println("addition is "+(a+5));
+  }
+}
+
+
+Q8
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String args[]) 
+  {    	
+    Scanner scanner = new Scanner(System.in);
+    String firstWord = scanner.nextLine();
+    String secondWord = scanner.nextLine();
+    System.out.println(firstWord + " " + secondWord);
+  }
+}
+
+Q9
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Scanner in = new Scanner(System.in);
+    String name1 = in.nextLine();
+    String name2 = in.nextLine();
+    int age1 = in.nextInt();
+    int age2 = in.nextInt();
+    float weight1 = in.nextFloat();
+    float weight2 = in.nextFloat();
+    float average_weight = (weight1 + weight2) / (float)2 ;
+    System.out.println(name1 + " is " + (age1) + " years old");
+    System.out.println(name2 + " is " + (age2) + " years old");
+    System.out.println(String.format("Average weight is %.2f",(average_weight)));
+  }
+}
+
+Q10
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String[] args)
+  {
+    List<String> l = new ArrayList<String>(); 
+    Scanner sc = new Scanner(System.in);
+    String a = sc.nextLine();
+    l.add(a);
+    a = sc.nextLine();
+    l.add(a);
+    a = sc.nextLine();
+    l.add(a);
+    System.out.println(l);
+  }
+}
+
+
+Q11
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String[] args)
+  {
+    List<String> l = new ArrayList<String>(); 
+    l.add("January");
+    l.add("February");
+    l.add("March");
+    l.add("April");
+    l.add("May");
+    l.add("June");
+    l.add("July");
+    l.add("August");
+    l.add("September");
+    l.add("October");
+    l.add("November");
+    l.add("December");
+    Scanner sc = new Scanner(System.in);
+    int ind = sc.nextInt();
+    System.out.println(l.get(ind-1));
+  }
+}
+
+
+Q12
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    List<Integer> l2 = new ArrayList<Integer>(); 
+    for(int i=1;i<6;i++)
+      l2.add(i);
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    l2.add(a);
+    l2.add(b);
+    System.out.println(l2);
+  }
+}
+
+Q13
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    List<Integer> l = new ArrayList<Integer>(); 
+    for(int i=1;i<11;i++)
+      l.add(i);
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    l.remove(a-1);
+    System.out.println(l);
+  }
+}
+
+Q14
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    List<String> l1 = new ArrayList<String>(); 
+    List<String> l2 = new ArrayList<String>(); 
+    l1.add("Grape");
+    l1.add("Pineapple");
+    l1.add("Apple");
+    Scanner sc = new Scanner(System.in);
+    String s1 = sc.nextLine();
+    String s2 = sc.nextLine();
+    l2.add(s1);
+    l2.add(s2);
+    l1.addAll(l2);
+    System.out.println(l1);
+  }
+}
+
+Q15
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String[] args)
+  {
+    int ar[] = new int[15];
+    int in=0;
+    for(int i=2;i<25;i+=2)
+    {
+      ar[in] = i;
+      in++;
+    }
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    System.out.println(ar[a] + ar[b]);
+  }
+}
+
+Q16
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Map< String,Integer> hm =  new HashMap< String,Integer>(); 
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int c = sc.nextInt();
+    hm.put("Diana", a);
+    hm.put("Antony", b);
+    hm.put("Joe", c);
+    System.out.println(hm);
+  }
+}
+
+Q17
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Map< Integer,String> hm =  new HashMap< Integer,String>(); 
+    hm.put(1,"January");
+    hm.put(2,"February");
+    hm.put(3,"March");
+    hm.put(4,"April");
+    hm.put(5,"May");
+    hm.put(6,"June");
+    hm.put(7,"July");
+    hm.put(8,"August");
+    hm.put(9,"September");
+    hm.put(10,"October");
+    hm.put(11,"November");
+    hm.put(12,"December");
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    System.out.println(hm.get(a)); 
+    System.out.println(hm.get(b)); 
+  }
+}
+
+Q18
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Map< String,Integer> hm =  new HashMap< String,Integer>(); 
+    hm.put("Mathematics",68);
+    hm.put("Language",78);
+    hm.put("Science",72);
+    hm.put("Humanities",75);
+    Scanner sc = new Scanner(System.in);
+    String s = sc.nextLine();
+    hm.remove(s);
+    Set< Map.Entry< String,Integer> > st = hm.entrySet();    
+
+    for (Map.Entry< String,Integer> me:st) 
+    { 
+      System.out.print(me.getKey()+": "); 
+      System.out.println(me.getValue()); 
+    } 
+  }
+}
+
+
+TEST 4 Strings, List, Tuples and Maps
+
+Q1
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[])
+  {
+    Scanner sc = new Scanner(System.in);
+    String s = sc.nextLine();    
+    String t = sc.nextLine();
+    s = s.concat(t);   
+    System.out.println(s);
+  }
+}
+
+Q2
+
+class TestClass 
+{
+  public static void main(String args[]) 
+  {
+    System.out.println("Alice: Hurrah! Only ten days to the holidays.");
+    System.out.println("Bob: I know. I've been counting the days.");
+  }
+}
+
+Q3
+
+import java.util.Scanner;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {      
+    Scanner in = new Scanner(System.in); 
+    String firstName = in.nextLine();        
+    String lastName = in.nextLine(); 
+    String age = in.nextLine(); 
+    System.out.println(firstName + " " + lastName + " is " + age + " years old");
+  }
+}
+
+Q4
+
+import java.util.*; 
+class TestClass
+{
+    public static void main(String args[])
+    {
+        Scanner in = new Scanner(System.in);    
+      	int number1 = in.nextInt();
+        int number2 = in.nextInt(); 
+        int number3 = in.nextInt();
+      	double average = (double)(number1 + number2 + number3) / 3.0;
+        System.out.println(String.format("Average is %.1f",average));
+
+
+
+    }
+}
+
+Q5
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[])
+  {
+    List<String> fruits_list = new ArrayList<>(Arrays.asList("Orange", "Apple", "Mango", "Pineapple", "Strawberry", "Banana"));
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    System.out.println(fruits_list.get(n-1));
+    int x = sc.nextInt();
+    fruits_list.remove(fruits_list.get(x-1));
+    System.out.println(fruits_list);
+  }
+}
+
+Q6
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {
+    ArrayList<String> colors = new ArrayList<>(Arrays.asList("Green", "Yellow", "Orange", "Red", "Pink"));
+    Scanner sc = new Scanner(System.in);
+    String s = sc.nextLine();
+    colors.add(s);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int c = sc.nextInt();
+    ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(a,b,c));
+    List<String> newList = new ArrayList<String>(numbers.size());
+    for (Integer myInt : numbers) 
+    {
+      newList.add(String.valueOf(myInt)); 
+    }
+    colors.addAll(newList);
+    System.out.println(colors);
+  }
+}
+
+Q7
+
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {
+    ArrayList<Integer> num = new ArrayList<>(Arrays.asList(6, 7, 3, 8, 1, 5, 16, 13, 11, 19, 2, 4, 12, 9, 17, 10));
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    System.out.println(num.get(a-1));
+    System.out.println(num.get(b-1));
+    a = sc.nextInt();
+    b = sc.nextInt();
+    System.out.println(num.get(a-1) + num.get(b-1));
+  }
+}
+
+Q8
+
+import java.util.*;
+import java.util.regex.Pattern;
+
+class TestClass
+{
+  public static void main(String args[]) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    String values = scanner.nextLine();
+    String[] strArray= values.split(Pattern.quote(","));
+    List<String> value = new ArrayList<>(Arrays.asList(strArray));
+    List<String> stringList = Collections.unmodifiableList(Arrays.asList(strArray));
+    System.out.println(value);
+    System.out.println(stringList);
+  }
+}
+
+
+
+Q9
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String args[]) 
+  {
+    ArrayList<Integer> num = new ArrayList<>(Arrays.asList(10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20));
+	Scanner sc = new Scanner(System.in);
+    int low = sc.nextInt();
+    int high = sc.nextInt();
+    ArrayList<Integer> otherList = new ArrayList<>(num.subList(low,high+1));
+    System.out.println(otherList);
+  }
+}
+
+Q10
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String args[]) 
+  {
+    Map<String,Integer> shapes = new HashMap< String,Integer>();
+    shapes.put("Square", 4);
+    shapes.put("Triangle", 3);
+    shapes.put("Rectangle", 4);
+    shapes.put("Pentagon", 5);
+    Scanner sc = new Scanner(System.in);
+    String s = sc.nextLine();
+    System.out.println(shapes.get(s));
+    s = sc.nextLine();
+    shapes.remove(s);
+    System.out.println(shapes);
+  }
+}
+
+ TEST 5 Flow Control Statements
+    
+Q1
+
+#include <stdio.h>
+int main()
+{
+  int num;
+  scanf("%d", &num);
+  if(num < 0)
+    printf("Invalid");
+  if(num > 0)
+    printf("Valid");
+  return 0;
+}
+
+Q2
+
+#include <stdio.h>
+int main()
+{
+  int num;
+  scanf("%d", &num);
+  if(num==5)
+  {
+    printf("1\n");
+    printf("2\n");
+    printf("3\n");
+    printf("4\n");
+  }
+  if(num==4)
+  {
+    printf("1\n");
+    printf("2\n");
+    printf("3\n");
+  }
+  return 0;
+}
+
+Q3
+
+#include <stdio.h>
+int main()
+{
+  int user_input;
+  scanf("%d", &user_input);
+  if(user_input > 0)
+    printf("Positive");
+  if(user_input < 0)
+    printf("Negative");
+  if(user_input == 0)
+    printf("Zero");
+  return 0;
+}
+
+Q4
+
+#include <stdio.h>
+int main()
+{
+  int marks;
+  scanf("%d", &marks);
+  if(marks > 120)
+    printf("You are qualified");
+  else  
+    printf("Not qualified");
+  return 0;
+}
+
+Q5
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+  char day[100];
+  scanf("%s", &day);
+  if(strcmp(day,"Sunday") == 0 || strcmp(day,"Saturday") == 0)
+    printf("It's a holiday");
+  else
+    printf("Not a holiday");
+  return 0;
+}
+
+Q6
+
+#include <stdio.h>
+int main()
+{
+  int marks;
+  scanf("%d", &marks);
+  if(marks > 80)
+    printf("Outstanding");
+  else if(marks > 60)
+    printf("Excellent");
+  else if(marks > 40)
+    printf("Good");
+  else
+    printf("Not qualified");
+  return 0;
+}
+
+Q7
+
+#include <iostream>
+using namespace std;
+int main() 
+{
+  int op;
+  int firstNumber, secondNumber;
+  cin >> op;
+  cin >> firstNumber >> secondNumber;
+  switch(op)
+  {
+    case 1:
+      cout << firstNumber+secondNumber;
+      break;
+    case 2:
+      cout << firstNumber-secondNumber;
+      break;
+    default:
+      cout <<"Error! operator is not correct";
+  }
+}
+
+ TEST 6 Flow Control Statements
+
+Q1
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int user_input = scanner.nextInt();
+    if(user_input > 60)
+      System.out.println("You have reached the maximum limit");
+    else
+      System.out.println("You are within the limit");
+  }
+}
+
+Q2
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int user_input = scanner.nextInt();
+    if(user_input > 1000)
+      System.out.println("You are rich");
+    else 
+      System.out.println("You are not rich");
+  }
+}
+
+Q3
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int x = scanner.nextInt();
+    int y = scanner.nextInt();
+    System.out.println( x>y?x:y);
+  }
+}
+
+Q4
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int x = scanner.nextInt();
+    int y = scanner.nextInt();
+    if(x > y)
+      System.out.println(x);
+    else 
+      System.out.println(y);
+  }
+}
+
+Q5
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int user_input = scanner.nextInt();
+    if(user_input > 70)
+      System.out.println("Too many");
+    else if(user_input < 10)
+      System.out.println("Too few");
+    else
+      System.out.println("Good number");
+  }
+}
+
+Q6
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int money = scanner.nextInt();
+    if((money > 100 && money <= 500) || (money > 1000 && money <= 5000))
+      System.out.println("Yes");
+    else 
+      System.out.println("No");
+  }
+}
+
+Q7
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int marks = scanner.nextInt();
+    if(marks > 50)
+      System.out.println("Above average");
+    else 
+      System.out.println("Below average");
+  }
+}
+
+Q8
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int user_input = scanner.nextInt();
+    if(user_input < 0 || user_input >100)
+      System.out.println("Out of range");
+    else 
+      System.out.println("Proceed");
+  }
+}
+
+Q9
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int maths = scanner.nextInt();
+    int science = scanner.nextInt();
+    int language = scanner.nextInt();
+    if((maths >= 60 && science >= 50 && language >= 40) || (maths + science >= 150))
+      System.out.println("Eligible");
+    else 
+      System.out.println("Not Eligible");
+  }
+}
+
+
+
+Q10
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    char user_input = scanner.next().charAt(0);
+    if(user_input=='a'||user_input=='e'||user_input=='i'||user_input=='o'||user_input=='u')
+      System.out.println("Vowel");
+    else 
+      System.out.println("Consonant");
+  }
+}
+
+Q11
+
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    String month = scanner.next();
+    if(month.equals("January") || month.equals("March") || month.equals("May") || month.equals("July") || month.equals("August") || month.equals("October") || month.equals("December"))
+      System.out.println("31 Days");
+    else if(month.equals("April") || month.equals("June") || month.equals("September") || month.equals("November"))
+      System.out.println("30 Days");
+    else
+      System.out.println("28 or 29 Days");
+  }
+}
+
+Q12
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int denom = scanner.nextInt();
+    if(denom == 1)
+      System.out.println("George Washington");
+    else if(denom == 2)
+      System.out.println("Thomas Jefferson");
+    else if(denom == 5)
+      System.out.println("Abraham Lincoln");
+    else if(denom == 10)
+      System.out.println("Alexander Hamilton");
+    else if(denom == 20)
+      System.out.println("Andrew Jackson");
+    else if(denom == 50)
+      System.out.println("Ulysses S. Grant");
+    else if(denom == 100)
+      System.out.println("Benjamin Franklin");
+    else
+      System.out.println("Invalid Entry");
+  }
+}
+
+
+
+Q13
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String[] args)
+  { 
+    Scanner scanner = new Scanner(System.in);
+    String month = scanner.nextLine();
+    int date = scanner.nextInt();
+    if (((month.equals("April") || month.equals("May")) || (month.equals("March") && (date >= 20 && date <= 31))) || ((month.equals("June")) && (date >= 1 && date <= 20)))
+      System.out.println("Spring Season");
+    else if(((month.equals("July") || month.equals("August")) || (month.equals("June") && (date >= 21 && date <= 30))) || ((month.equals("September")) && (date >= 1 && date <= 21)))
+      System.out.println("Summer Season");
+    else if(((month.equals("October") || month.equals("November")) || (month.equals("September") && (date >= 22 && date <= 30))) || ((month.equals("December")) && (date >= 1 && date <= 20)))
+      System.out.println("Fall Season");
+    else 
+      System.out.println("Winter Season");
+  }
+}
+
+Q14
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int num = scanner.nextInt();
+    if(num == 1)
+      System.out.println("Sunday");
+    else if(num == 2)
+      System.out.println("Monday");
+    else if(num == 3)
+      System.out.println("Tuesday");
+    else if(num == 4)
+      System.out.println("Wednesday");
+    else if(num == 5)
+      System.out.println("Thursday");
+    else if(num == 6)
+      System.out.println("Friday");
+    else if(num == 7)
+      System.out.println("Saturday");
+    else 
+      System.out.println("Invalid");
+  }
+}
+
+Q15
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int length = scanner.nextInt();
+    int breadth = scanner.nextInt();
+    if(length == breadth)
+      System.out.println("Yes, it is a square");
+    else 
+      System.out.println("No, it is a rectangle");
+  }
+}
+
+
+Q16
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);       
+    int first = scanner.nextInt();     
+    int second = scanner.nextInt();        
+    int third = scanner.nextInt();
+    if(first < second && first < third)
+      System.out.println(first);
+    else if(second <first && second < third)
+      System.out.println(second);
+    else
+      System.out.println(third);
+  }
+}
+
+Learn Java: Control Loops
+
+Q1
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    for(int i = 20; i <= 30; i++)
+      System.out.println(i);
+  }
+}
+
+Q2
+
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    String colors[] = {"Red", "Green", "Blue", "Black", "Yellow"};
+    for(int i = 0; i < 5; i++)
+      System.out.println(colors[i]);
+  }
+}
+
+
+Q3
+
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    int num[] = {25, 33, 42, 28, 53, 66, 75, 36, 80, 40};
+    int sum=0;
+    for(int i = 0; i < 10; i++)
+    {
+      if(i == 5)break;
+      sum += num[i];
+    }
+    System.out.println(sum);
+  }
+}
+
+    
+
+Q4
+
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int num[] = {16, 8, 12, 5, 7, 10, 11, 9, 13, 15};
+    boolean isPresent = false;
+    int user_input=scanner.nextInt();
+    for(int i = 0; i < 10; i++)
+    {
+      if(num[i] == user_input)
+      {
+        isPresent = true;
+        for(int j=1; j <= user_input; j++)
+          System.out.println(j);
+      }
+    }
+    if(isPresent == false)
+      System.out.println("Not found");
+  }
+}
+
+Q5
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int x=scanner.nextInt();
+    int y=scanner.nextInt();
+    int num=0;
+    while(num <= y)
+    {
+      if(num >= x && num<=y)
+        System.out.println(num);
+      num++;
+    }
+  }
+}
+
+Practice Java: Control Loops
+
+Q1
+
+class TestClass
+{
+  public static void main(String[] args) 
+  {
+    int num[]={5, 6, 2, 1, 4, 3};
+    System.out.print("[");
+    for(int i=0;i<6;i++){
+      if(i!=5)System.out.print(num[i]*num[i]+", ");
+      else System.out.print(num[i]*num[i]);
+    }
+    System.out.println("]");
+  }
+}
+
+Q2
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Scanner scanner=new Scanner(System.in);
+    int num=scanner.nextInt();
+    for(int i=1;i<11;i++)
+    {
+      System.out.println(i + " x " + num + " = " + num*i);
+    }
+  }
+}
+
+Q3
+
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    for(int i=10;i<101;)
+    {
+      System.out.println(i);
+      i = i + 10;
+    }
+  }
+}
+
+Q4
+
+class TestClass
+{
+  public static void main(String[] args) 
+  {
+    int num=1;
+    System.out.print("[");
+    for(int i=0;i<10;i++)
+    {
+      if(i!=9)System.out.print(num*2+", ");
+      else System.out.print(num*2);
+      num = num * 2;
+    }
+    System.out.println("]");
+  }
+}
+
+Q5
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {       
+    int num=0;
+    System.out.print("[");
+    while(num<=630)
+    {
+      System.out.print(num+", ");
+      num = num + 5;
+      if(num!=635)System.out.print(num+", ");
+      else System.out.print(num);
+      num = num * 2;
+    }
+    System.out.println("]");
+  }
+}
+
+Q6
+
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    String months[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+    for(int i=0; i<12; i++)
+      System.out.println(i+1 + " " + months[i]);
+  }
+}
+
+Q7
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    float sum=0;
+    for(int i=0;i<10;i++)
+    {
+      float x = scanner.nextFloat();
+      sum = sum + x;
+    }
+    System.out.println(String.format("%.1f",sum/10));
+  }
+}
+
+Q8
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    float sum = 0;
+    int pro = 1, num = 0;
+    while(true)
+    {
+      String x = scanner.nextLine();
+      if(x.equals("q"))break;
+      sum = sum + (float)Integer.parseInt(x);
+      pro = pro * Integer.parseInt(x);
+      num++;
+    }
+    System.out.println(String.format("%.1f",sum/num));
+    System.out.println(pro);
+  }
+}
+
+Q9
+import java.util.*;
+class TestClass
+{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    float sum = 0;
+    int[] num = new int[5];
+    for(int i=0;i<5;i++)
+      num[i]=scanner.nextInt();
+
+    int search=scanner.nextInt();
+    int index = -1;
+    for(int i=0;i<5;i++)
+    {
+      if(search == num[i])
+      {
+        index = i;
+      }
+    }
+    System.out.print("[");
+    for(int i=0;i<5;i++)
+    {
+      if(i != index)
+        System.out.print(num[i]);
+      if((i == index) || (i == 4) || (i == 3 && index == 4))
+        System.out.print("");
+      else 
+        System.out.print(", ");
+    }
+    System.out.println("]");
+  }
+}
+
+Q10
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    for(int i=2;i<101;i+=2)
+    {
+      System.out.print(i+" ");
+    }
+    System.out.println();
+    for(int i=1;i<101;i+=2)
+    {
+      System.out.print(i+" ");
+    }
+  }
+}
+
+Q11
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int start = scanner.nextInt();
+    int limit = scanner.nextInt();
+    while(start<=limit)
+    {
+      System.out.println(start);
+      start = start +2;
+    }
+  }
+}
+
+
+Learn Java: Functions and Modules
+
+Q1
+
+class TestClass 
+{
+  public static void print()
+  {
+    System.out.println("Whose woods these are I think I know.\n" +
+                       "His house is in the village though;\n" +
+                       "He will not see me stopping here\n" +
+                       "To watch his woods fill up with snow.");
+  }
+  public static void main(String[] args) 
+  {
+    print();
+  }
+}
+
+Q2
+
+import java.util.*;
+class TestClass 
+{
+  public static void print(int x, int y)
+  {
+    System.out.println(x + y);
+  }
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int x=scanner.nextInt();
+    int y=scanner.nextInt();
+    print(x, y);
+  }
+}
+
+
+Q3
+
+import java.util.*;
+class TestClass
+{
+  public static int find_min(int x, int y)
+  {
+    return Math.min(x, y);
+  }
+  public static void main(String[] args) 
+  {
+    Scanner scanner = new Scanner(System.in);
+    int x=scanner.nextInt();
+    int y=scanner.nextInt();
+    int num=find_min(x, y);
+    System.out.println(num);
+  }
+}
+
+Q4
+
+class TestClass 
+{
+  static String message="This variable is in global scope";
+  public static void print()
+  {
+    String message="This variable is in local scope";
+    System.out.println(message);
+  }
+  public static void main(String[] args) 
+  {
+    System.out.println(message);
+    print();
+  }
+}
+
+
+Practice Java: Functions and Modules
+
+Q1
+
+import java.util.*;
+class TestClass 
+{
+  public static void square(int x)
+  {
+    System.out.println(x*x);
+  }
+  public static void main(String[] args) 
+  {
+    Scanner scanner=new Scanner(System.in);
+    int x=scanner.nextInt();
+    square(x);
+  }
+}
+
+Q2
+
+import java.util.*;
+class TestClass
+{
+  public static int max(int x, int y)
+  {
+    return Math.max(x, y);
+  }
+  public static void main(String[] args)
+  {
+    Scanner scanner=new Scanner(System.in);
+    int x=scanner.nextInt();
+    int y=scanner.nextInt();
+    int ans = max(x, y);
+    System.out.println(ans);
+  }
+}
+
+Q3
+
+import java.util.*;
+class TestClass
+{
+  public static int sum(int x, int y)
+  {
+    return x + y;
+  }
+  public static int square(int x)
+  {
+    return x * x;
+  }
+  public static void main(String[] args) 
+  {
+    Scanner scanner=new Scanner(System.in);
+    int x=scanner.nextInt();
+    int y=scanner.nextInt();
+    System.out.println(sum(square(x),square(y)));
+  }
+}
+
+Q4
+import java.util.*;
+class TestClass 
+{
+  public static void interchange(int x, int y)
+  {
+    System.out.println("["+ y + ", " + x + "]");
+  }
+  public static void main(String[] args) 
+  {
+    Scanner scanner=new Scanner(System.in);
+    int x=scanner.nextInt();
+    int y=scanner.nextInt();
+    interchange(x,y);
+  }
+}
+
+
+Q5
+
+import java.util.*;
+class TestClass 
+{
+  public static void cal(int x)
+  {
+    System.out.println(x*x);
+    System.out.println(4*x);
+  }
+  public static void main(String[] args)
+  {
+    Scanner scanner=new Scanner(System.in);
+    int x=scanner.nextInt();
+    cal(x);
+  }
+}
+
+
+Q6
+
+import java.util.*;
+class TestClass 
+{
+  public static void cal(int x)
+  {
+    if(x%2 == 0)
+      System.out.println("Even");
+    else
+      System.out.println("Odd");
+  }
+  public static void main(String[] args) 
+  {
+    Scanner scanner=new Scanner(System.in);
+    int x=scanner.nextInt();
+    cal(x);
+  }
+}
+
+Q7
+
+import java.util.*;
+class TestClass 
+{
+  public static void fac(int x)
+  {
+    int ans = 1;
+    for(int i = x; i > 0; i--)
+    {
+      ans = ans * i;
+    }
+    System.out.println(ans);
+  }
+  public static void main(String[] args) 
+  {
+    Scanner scanner=new Scanner(System.in);
+    int x=scanner.nextInt();
+    fac(x);
+  }
+}
+
+
+Q8
+
+import java.util.*;
+class TestClass 
+{
+  public static void max(int x, int y, int z)
+  {
+    int ans = Math.max(x, Math.max(y,z));
+    System.out.println(ans);
+  }
+  public static void main(String[] args) 
+  {
+    Scanner scanner=new Scanner(System.in);
+    int x=scanner.nextInt();
+    int y=scanner.nextInt();
+    int z=scanner.nextInt();
+    max(x, y, z);
+  }
+}
+
+Q9
+
+import java.util.*;
+class TestClass
+{
+  static int ar[] = {4, 5, 6, 3, 7, 9};
+  public static void cal()
+  {
+    int ans = 0;
+    for(int i=0; i<6; i++)
+      ans = ans + ar[i];
+    System.out.println(ans);
+  }
+  public static void main(String[] args)
+  {
+    cal();
+  }
+}
+
+
+Q10
+
+import java.util.*;
+class TestClass 
+{
+  public static void check(int low, int upp, int num)
+  {
+    if(num >= low && num <= upp)
+      System.out.println("Yes");
+    else
+      System.out.println("No");
+  }
+  public static void main(String[] args) 
+  {
+    Scanner scanner=new Scanner(System.in);
+    int num=scanner.nextInt();
+    int low=scanner.nextInt();
+    int upp=scanner.nextInt();
+    check(low, upp, num);
+  }
+}
+
+Q11
+class TestClass 
+{
+  public static void print()
+  {
+    System.out.print("{");
+    for(int i=1;i<11;i++)
+    {
+      System.out.print(i+": "+i*i);
+      if(i != 10)
+        System.out.print(", ");
+    }
+    System.out.print("}");
+  }
+  public static void main(String[] args) 
+  {
+    print();
+  }
+}
+
+Q12
+
+class TestClass 
+{
+  public static int fac(int x)
+  {
+    int ans = 1;
+    for(int i=x;i>0;i--)
+      ans = ans * i;
+    return ans;
+  }
+  public static void print()
+  {
+    System.out.print("{");
+    for(int i=1;i<6;i++){
+      System.out.print(i+": "+fac(i));
+      if(i != 5)
+        System.out.print(", ");
+    }
+    System.out.print("}");
+  }
+  public static void main(String[] args)
+  {
+    print();
+  }
+}
+
+Q13
+
+import java.util.*;
+class TestClass 
+{
+  public static int cal(int x)
+  {
+    if(x == 0)
+      return 1;
+    return cal(x-1) + 100;
+  }
+  public static void main(String[] args)
+  {
+    Scanner in = new Scanner(System.in);
+    int num = in.nextInt();
+    System.out.println(cal(num));
+  }
+}
+
+Q14
+
+import java.util.*;
+class TestClass
+{
+  static int ar[] = {3, 4, 6, 7, 8, 9, 11, 15, 18};
+  public static int bin_search(int x)
+  {
+    int l=0,r=8;
+    while(l<=r)
+    {
+      int mid = (l+r)/2;
+      if(ar[mid] == x)
+        return mid;
+      else if(ar[mid] > x)
+        r = mid - 1;
+      else 
+        l = mid + 1;
+    }
+    return -1;
+  }
+  public static void main(String[] args)
+  {
+    Scanner in = new Scanner(System.in);
+    int num = in.nextInt();
+    int ans = bin_search(num);
+    if(ans == -1)
+      System.out.println("Not found");
+    else
+      System.out.println(ans);
+  }
+}
+
+
+Learn Java: Classes and Objects
+
+Q1
+
+class Bird
+{
+  public static void main(String[] args)
+  {
+    Bird obj = new Bird();
+    fly();
+  }
+  static void fly()
+  {
+    System.out.println("The bird is flying");
+  }
+}
+
+
+Q2
+
+import java.util.*;
+class computer
+{
+  String input;
+  public void system_in()
+  {      
+    Scanner in = new Scanner(System.in);
+    input = in.nextLine();
+  }
+  public void system_out()
+  {
+    System.out.println("Thank you " + input);
+  }
+}
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    computer obj = new computer();
+    obj.system_in();
+    obj.system_out();
+  }
+}
+
+Q3
+
+class circle
+{
+  double radius;
+  circle(double r)
+  {
+    this.radius = r;
+  }
+  public void circumference()
+  {
+    double peri = 2.0 * 3.14 * radius;
+    System.out.println(String.format("%.1f",peri));
+  }
+  public void area()
+  {
+    double area = 3.14 * radius * radius;
+    System.out.println(String.format("%.1f",area));
+  }
+}
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    circle obj = new circle(10);
+    obj.area();
+    obj.circumference();
+  }
+}
+
+Q4
+
+class Person
+{
+  String name;
+  public Person(String s)
+  {
+    this.name = s;
+  }
+}
+class Student extends Person
+{
+  int roll_no;
+    String gender;
+    public Student(String s, int roll, String g)
+    {
+        super(s);
+        this.roll_no = roll;
+        this.gender = g;
+    }
+    void display()
+    {
+        System.out.println(super.name);
+        System.out.println(this.roll_no);
+        System.out.println(this.gender);
+    }
+}
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Student obj = new Student("Sam", 15, "Male");
+    obj.display();
+  }
+}
+
+Practice Java: Classes and Objects
+
+Q1
+
+import java.util.Scanner;
+class Temperature
+{
+  void celsiusToFahren(double celsius)
+  {
+    double fahren = (celsius *  9.0 / 5.0 ) + 32 ;
+    System.out.println(String.format("%.1f",fahren));
+  }
+}
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner scan = new Scanner( System.in);
+    Temperature obj = new Temperature();
+    double d = scan.nextDouble();
+    obj.celsiusToFahren(d);
+  }
+}
+
+
+Q2
+
+class Student 
+{
+  int age, marks;
+  String name;
+  public Student(String s)
+  {
+    this.name = s;
+  }
+  void setage(int a)
+  {
+    this.age = a;
+  }
+  void setmarks(int m)
+  {
+    this.marks = m;
+  }
+  void display()
+  {
+    System.out.println("Name: " + this.name);
+    System.out.println("Age: " + this.age);
+    System.out.println("Marks: " + this.marks);
+  }
+}
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Student obj = new Student("Emma");
+    obj.setage(18);
+    obj.setmarks(68);
+    obj.display();
+  }
+}
+
+
+Q3
+
+class Date 
+{
+  String day, month, year;
+  public Date(String d, String m, String y)
+  {
+    day = d;
+    month = m;
+    year = y;
+  }
+  void display()
+  {
+    System.out.println(day + " " + month + " " + year);
+  }
+}
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Date obj = new Date("08","April","2000");
+    obj.display();
+  }
+}
+
+Q4
+
+import java.util.*;
+class Fruits 
+{
+  String name;
+  int price;
+  int quantity;
+  public Fruits(String s, int p)
+  {
+    name = s;
+    price = p;
+  }
+  void setQuan( int quan)
+  {    
+    quantity = quan;        
+  }
+  void total()
+  {
+    System.out.println(quantity * price);
+  }
+}
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner it = new Scanner( System.in);
+    String str = it.nextLine();
+    Fruits obj = new Fruits(str, it.nextInt());       
+    obj.setQuan(it.nextInt());
+    obj.total();
+  }
+}
+
+Q5
+
+class Animals 
+{
+  void eating()
+  {
+    System.out.println("Eating....");
+  }
+  void walking()
+  {
+    System.out.println("Walking.....");
+  }
+}
+class Herbivores extends Animals
+{
+  void herb_eat()
+  {
+    eating();
+    System.out.println("Grass");
+  }
+}
+class Carnivores extends Animals
+{
+  void carn_eat()
+  {
+    eating();
+    System.out.println("Meat");
+  }
+}
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Herbivores cow = new Herbivores();
+    cow.herb_eat();
+    Carnivores lion = new Carnivores();
+    lion.carn_eat();
+  }
+}
+
+Q6
+
+import java.util.*;
+class Rectangle 
+{
+  int length, width;
+  public Rectangle(int l, int w)
+  {
+    length = l;
+    width = w;
+  }
+  void area()
+  {
+    System.out.println(length * width);
+  }
+}
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner it = new Scanner( System.in);
+    Rectangle obj = new Rectangle(it.nextInt(), it.nextInt());
+    obj.area();
+  }
+}
+
+Q7
+
+import java.util.*;
+class Shape
+{
+  void area()
+  {
+    System.out.println(0);
+  }
+}
+class Square extends Shape
+{
+    int length;
+    public Square(int l)
+    {
+        length = l;
+    }
+    void area()
+    {
+        System.out.println(length * length);
+    }
+}
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner it = new Scanner(System.in);
+    Square obj = new Square(it.nextInt());
+    obj.area();
+  }
+}
+
+
+
+
+Q8
+
+class Person
+{
+  void gender()
+  {
+    System.out.println("Unknown");
+  }
+}
+class Male extends Person
+{
+    void gender()
+    {
+        System.out.println("Male");
+    }
+}
+class Female extends Person
+{
+    void gender()
+    {
+        System.out.println("Female");
+    }
+}
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Male obj1 = new Male();
+    Female obj2 = new Female();
+    obj1.gender();
+    obj2.gender();
+  }
+}
+
+Q9
+
+
+class poem
+{
+  String Poem[] = new String[4];
+  public poem()
+  {
+    Poem[0] = "When I behold a forest spread";
+    Poem[1] = "With silken trees upon thy head;";
+    Poem[2] = "And when I see that other dress";
+    Poem[3] = "Of flowers set in comeliness;";
+  }
+  void getpoem()
+  {
+    for(int i=0;i<4;i++)
+      System.out.println(Poem[i]);
+  }
+}
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    poem obj = new poem();
+    obj.getpoem();
+  }
+}
+
+
+Learn Java: Built in Functions
+
+
+Q1
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    int x = in.nextInt();
+    int y = in.nextInt();
+    int z = in.nextInt();
+    System.out.println(Math.abs(x)+Math.abs(y)+Math.abs(z));
+  }
+}
+
+Q2
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    System.out.println(Math.round(2.5));
+    System.out.println(Math.round(-2.5));
+    System.out.println(Math.round(-2.52));
+  }
+}
+
+
+Q3
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Scanner in = new Scanner(System.in);
+    Integer a = in.nextInt();
+    Integer b = in.nextInt();
+    System.out.println(a.equals(b));
+  }
+}
+
+Q4
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    List<Integer> l1 = new ArrayList<Integer>(); 
+    for(int i=25;i<64;i++)
+      l1.add(i);
+    
+    System.out.println(l1.size());
+  }
+}
+
+Q5
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {       
+    Scanner in = new Scanner(System.in);
+    String s1 = in.nextLine();  
+    String x = in.nextLine();
+    System.out.println(s1.contains(x)); 
+  }
+}
+
+Q6
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    int ar[] = {12, 78, 5, 46, 32, 52, 61, 43};
+    int ma=ar[0],mi=ar[0];
+    for(int i=1;i<8;i++)
+    {
+      mi = Math.min(mi, ar[i]);
+      ma = Math.max(ma, ar[i]);
+    }
+    System.out.println(mi + "\n" + ma);
+  }
+}
+
+Q7
+
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    for(int i=500;i<551;i+=5)
+    {
+      System.out.print(i + " ");         
+    }
+  }
+}
+
+
+Q8
+
+class TestClass 
+{
+  public static void main(String[] args) 
+  {
+    int s = Integer.sum(44, 45);
+    for(int i=46;i<67;i++)
+    {
+      s = Integer.sum(i, s);
+    }
+    System.out.println(s);
+  }
+}
+
+Practice Java: Built in Functions
+
+Q1
+
+import java.util.*;
+class TestClass 
+{
+    public static void main(String[] args) 
+    {
+        int ar[] = {2, 56, 7, -6, 99, -76, -33, 69, 3, -56, 4, 56, 34, -9, 10, -20, 38, 55};
+        
+        for(int i=0;i<18;i++)
+            System.out.print(Math.abs(ar[i])+" ");        
+    }
+}
+
+
+Q2
+
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    int a =  Math.min(Integer.sum(11,22), Math.max(Math.abs(-30),20));
+    System.out.println(a); 
+  }
+}
+
+
+Q3
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    int ar[] = {-1, 2, -3, 4, 5};
+    for(int i=0;i<5;i++)
+    {
+      if(Math.abs(ar[i]) < 3)
+        System.out.println(ar[i]); 
+    }
+  }
+}
+
+Q4
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    int ar[] = {53, 5, 36, 65, 78, 10};
+    int a =Math.max(Math.min(Math.abs(-63),63),ar[3]);
+    System.out.println(a);
+  }
+}
+
+Q5
+
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    int a = 0;
+    for(int i=60;i>=-10;i-=2)
+    {
+      a = a + i;
+    }
+    System.out.println(a);
+  }
+}
+
+Q6
+
+import java.util.*;
+class TestClass
+{
+  public static void main(String[] args) 
+  {
+    List<Integer> l1 = new ArrayList<Integer>(); 
+    for(int i=25;i<76;i+=2)
+    {
+      l1.add(i);
+    }
+    System.out.println(l1);
+  }
+}
+
+Q7
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    List<Integer> l1 = new ArrayList<Integer>(); 
+    for(int i=125;i>=65;i-=5)
+    {
+      l1.add(i);
+    }
+    System.out.println(l1);
+  }
+}
+
+
+Q8
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    List<Integer> l1 = new ArrayList<Integer>(); 
+    int a = 0;
+    for(int i=32;i<89;i+=3)
+    {
+      l1.add(i);
+      a = a + i;
+    }
+    System.out.println(l1);
+    System.out.println(l1.size());
+    System.out.println(Collections.max(l1));
+    System.out.println(a);
+  }
+}
+
+Practice Java: Some useful Modules/Packages
+
+Q1
+
+import java.util.*;
+class shape
+{
+  int sides;
+  String colour;
+  shape(int s, String c)
+  {
+    sides = s;
+    colour = c;
+  }
+}
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Scanner in = new Scanner(System.in);
+    shape rectangle = new shape(4,"yellow");
+    shape square = rectangle;
+    System.out.println(square.sides);
+  }
+}
+
+Q2
+
+import java.util.*;
+class TestClass 
+{
+  public static void main(String[] args)
+  {
+    Scanner in = new Scanner(System.in);
+    String s=in.nextLine();
+    System.out.println(s);
+  }
+}
+
+Practice: Data Structure (Easy)
+
+Q1
+
+import java.util.*;
+class Main
+{
+  public static void main(String args[])
+  {
+    int n,m,i,j;
+    int value;
+    Scanner sc = new Scanner(System.in);
+    n = sc.nextInt();
+    int arr[][] = new int[n][10];
+
+    for(i=0;i<n;i++)
+    {
+      m = sc.nextInt();
+      arr[i][0] = m;
+      for(j=0;j<m;j++)
+      {
+        arr[i][j+1] = sc.nextInt();
+      }
+    }
+    int q = sc.nextInt();
+    int x,y;
+    for(i=0;i<q;i++)
+    {
+      x = sc.nextInt();
+      y = sc.nextInt();
+      if(x<=n)
+      {
+        if(y<=arr[x-1][0])
+          System.out.println(arr[x-1][y]);
+        else 
+          System.out.println("ERROR!");
+      }
+      else 
+        System.out.println("ERROR!");
+    }
+  }
+}
+
+Q2
+
+import java.util.*;
+class Perfectice 
+{   
+  public static void main(String[] args)
+  {
+    Scanner in = new Scanner(System.in);
+    int arr[][] = new int[6][6];
+    for(int arr_i=0; arr_i < 6; arr_i++)
+    {
+      for(int arr_j=0; arr_j < 6; arr_j++)
+      {
+        arr[arr_i][arr_j] = in.nextInt();
+      }
+    }                
+    Sum(arr);       
+  }    
+  private  static void Sum(int arr[][])
+  {
+    int sum=-1000;
+    for(int i =0 ; i<4;i++)
+    {
+      for(int x =0 ; x<4; x++)
+      {                   
+        int top = arr[i][x]+arr[i][x+1]+arr[i][x+2];
+        int middle = arr[i+1][x+1];
+        int bottom = arr[i+2][x]+arr[i+2][x+1]+arr[i+2][x+2];
+        if(top+middle+bottom>sum)
+        {
+          sum=top+middle+bottom;
+        }
+      }
+    }
+    System.out.println(sum);                        
+  }
+}
+
+Q3
+
+import java.util.*;
+class Perfectice
+{
+  public static void main(String[] args) 
+  {
+    Scanner sc = new Scanner(System.in);
+    int bitSetSize = sc.nextInt();
+    int numOperations = sc.nextInt();
+    BitSet[] bitSetArray = new BitSet[2];
+    bitSetArray[0] = new BitSet(bitSetSize);
+    bitSetArray[1] = new BitSet(bitSetSize);
+    sc.nextLine();
+    for(int i = 0;i < numOperations; i++)
+    {
+      String[] opArray = sc.nextLine().split(" ");
+      switch(opArray[0]){
+        case "AND": bitSetArray[Integer.parseInt(opArray[1])-1].and(bitSetArray[Integer.parseInt(opArray[2])-1]);
+          break;
+        case "OR": bitSetArray[Integer.parseInt(opArray[1])-1].or(bitSetArray[Integer.parseInt(opArray[2])-1]);
+          break;
+        case "XOR": bitSetArray[Integer.parseInt(opArray[1])-1].xor(bitSetArray[Integer.parseInt(opArray[2])-1]);
+          break;
+        case "FLIP": bitSetArray[Integer.parseInt(opArray[1])-1].flip(Integer.parseInt(opArray[2]));
+          break;
+        case "SET": bitSetArray[Integer.parseInt(opArray[1])-1].set(Integer.parseInt(opArray[2]));
+          break;
+      }
+      System.out.println(bitSetArray[0].cardinality() + " " + bitSetArray[1].cardinality());
+
+    }
+  }
+}  
+
+   
+Practice: Data Structure (Medium)
+
+Q1
+
+import java.util.*;
+class Solution 
+{	
+  public static void main(String []argh)
+  {
+    Scanner sc = new Scanner(System.in);		
+    while (sc.hasNext()) 
+    {
+      String input=sc.next();           
+      while(input.length() != (input = input.replaceAll("\\(\\)|\\[\\]|\\{\\}", "")).length());
+      System.out.println(input.isEmpty());
+    }		
+  }
+}
+
+
+Q2
+
+import java.util.*;
+class Checker implements Comparator<Player>
+{
+    public int compare(Player a, Player b)
+    {
+        if (a.score == b.score)
+        {
+            return a.name.compareTo(b.name);
+        } 
+        else 
+        {
+            return b.score - a.score;
+        }
+    }
+}
+class Player
+{
+  String name;
+  int score;
+  Player(String name, int score)
+  {
+    this.name = name;
+    this.score = score;
+  }
+}
+
+class Solution
+{
+  public static void main(String[] args) 
+  {
+    Scanner scan = new Scanner(System.in);
+    int n = scan.nextInt();  
+    Player[] player = new Player[n];
+    Checker checker = new Checker();      
+    for(int i = 0; i < n; i++)
+    {
+      player[i] = new Player(scan.next(), scan.nextInt());
+    }
+    scan.close();
+
+    Arrays.sort(player, checker);
+    for(int i = 0; i < player.length; i++)
+    {
+      System.out.printf("%s %s\n", player[i].name, player[i].score);
+    }
+  }
+}
+
+Q3
+
+import java.util.*;
+class test 
+{
+  public static void main(String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    Deque<Integer> deque = new ArrayDeque<>();
+    HashSet<Integer> set = new HashSet<>();
+    int n = in.nextInt();
+    int m = in.nextInt();
+    int max = Integer.MIN_VALUE;
+    for (int i = 0; i < n; i++) 
+    {
+      int input = in.nextInt();            
+      deque.add(input);
+      set.add(input);           
+      if (deque.size() == m) 
+      {
+        if (set.size() > max) max = set.size();
+        int first = deque.remove();
+        if (!deque.contains(first)) set.remove(first);
+      }
+    }        
+    System.out.println(max);
+  }
+}
+
+Practice: Searching (Easy)
+
+Q1
+
+import java.util.Scanner;
+class LinearSearch { 
+	static int search(int arr[], int n, int search) 
+	{ 
+		for (int i = 0; i < n; i++) { 		
+			if (arr[i] == search) 
+				return i; 
+		} 
+		return -1; 		
+	} 	
+	public static void main(String args[])
+    {
+        int i, n, search, arr[];    
+        Scanner in = new Scanner(System.in);
+        n = in.nextInt();
+        arr = new int[n];
+        for (i = 0; i < n; i++)
+          arr[i] = in.nextInt();
+        search = in.nextInt();       
+        if(search(arr, n, search) >= 0)
+            System.out.println("Element is present at index " + search(arr, n, search));
+        else
+			System.out.println("Element is not present in array");
+    }
+} 
+
+
+
+Q2
+
+import java.util.Scanner; 
+class BinarySearchAlgo { 
+	int binarySearch(int arr[], int l, int r, int search) 
+	{ 
+		if (r >= l) { 
+			int mid = l + (r - l) / 2; 		
+			if (arr[mid] == search) 
+				return mid; 
+			if (arr[mid] > search) 
+				return binarySearch(arr, l, mid - 1, search); 
+			return binarySearch(arr, mid + 1, r, search); 
+		} 
+		return -1; 
+	} 
+	public static void main(String args[]) 
+	{ 
+		BinarySearchAlgo ob = new BinarySearchAlgo(); 
+		int i, n, search, array[];     
+        Scanner in = new Scanner(System.in);
+        n = in.nextInt();
+        array = new int[n];
+        for (i = 0; i < n; i++)
+          array[i] = in.nextInt();    
+        search = in.nextInt();
+        int result = ob.binarySearch(array, 0, n - 1, search); 
+        if (result == -1) 
+            System.out.println("Element is not present in array"); 
+        else
+            System.out.println("Element is present at index " + result); 
+	}
+}
+
+
+Q3
+
+import java.util.*;
+class MissingNoinArray
+{ 
+	static int findMissingNo (int arr[], int n) 
+	{ 
+		int i, total; 
+		total = (n+1)*(n+2)/2; 
+		for ( i = 0; i< n; i++) 
+		total -= arr[i]; 
+		return total; 
+	} 	
+	public static void main(String args[]) 
+	{ 
+      Scanner sc = new Scanner(System.in); 
+		int arr[]=new int[20];
+        int n = sc.nextInt(); 
+      	for(int i=0;i<n;i++)
+        {
+        arr[i] = sc.nextInt();   
+        }
+		int missno = findMissingNo(arr,n);		
+		System.out.println(missno); 
+	} 
+} 
+
+
+Q4
+
+import java.util.*;
+class SearchKey
+{ 
+	static int search(int arr[], int l, int h, int key) 
+	{ 
+		if (l > h) 
+			return -1; 		
+		int mid = (l+h)/2; 
+		if (arr[mid] == key) 
+			return mid; 
+		
+		if (arr[l] <= arr[mid]) 
+		{ 
+			if (key >= arr[l] && key <= arr[mid]) 
+			return search(arr, l, mid-1, key); 
+		
+			return search(arr, mid+1, h, key); 
+		} 
+		
+		if (key >= arr[mid] && key <= arr[h]) 
+			return search(arr, mid+1, h, key); 
+		return search(arr, l, mid-1, key); 
+	} 
+	
+	public static void main(String args[]) 
+	{ 
+		Scanner s=new Scanner(System.in);
+        int n = s.nextInt();
+        int arr[]=new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=s.nextInt();
+        }
+		int key = s.nextInt(); 
+		int index = search(arr, 0, n-1, key); 
+		if (index != -1) 
+			System.out.println("Index: " + index); 
+		else
+			System.out.println("Key not found"); 
+	} 
+} 
+
+Practice: Backtracking (Medium)
+
+
+Q1
+
+import java.util.*;
+class TestClass 
+{   
+  static boolean checkPalindrome(String str) 
+  { 
+    int len = str.length(); 
+    len--; 
+    for (int i=0; i<len; i++) 
+    { 
+      if (str.charAt(i) != str.charAt(len)) 
+        return false; 
+      len--; 
+    } 
+    return true; 
+  } 
+
+  static void printSolution(ArrayList<ArrayList<String>>partitions) 
+  { 
+    for(ArrayList<String> i: partitions) 
+    { 
+      for(String j: i) 
+      { 
+        System.out.print(j+" "); 
+      } 
+      System.out.println(); 
+    } 
+  } 
+  static ArrayList<ArrayList<String>> addStrings(ArrayList<ArrayList<String>> v, String s, ArrayList<String> temp,int index) 
+  { 
+    int len = s.length(); 
+    String str = ""; 
+    ArrayList<String> current = new ArrayList<>(temp);           
+    if (index == 0) 
+      temp.clear(); 
+
+    for (int i = index; i < len; ++i) 
+    { 
+      str = str + s.charAt(i);          
+      if (checkPalindrome(str)) 
+      { 
+        temp.add(str); 
+
+        if (i + 1 < len) 
+        {                       
+          v = addStrings(v,s,temp,i+1); 
+        } 
+        else
+        { 
+          v.add(temp); 
+        } 
+        temp = new ArrayList<>(current); 
+      } 
+    } 
+    return v; 
+  } 
+  static void partition(String s, ArrayList<ArrayList<String>> v) 
+  {      
+    ArrayList<String> temp = new ArrayList<>();        
+    v = addStrings(v, s, temp, 0);     
+    printSolution(v); 
+  } 
+  public static void main(String[] args)
+  {
+    TestClass obj = new TestClass();
+    Scanner in = new Scanner(System.in);
+    ArrayList<ArrayList<String>> partitions = new ArrayList<>();
+    String n=in.next();
+    obj.partition(n, partitions);
+  }
+}
+
+
+Q2
+
+import java.util.*;
+class Edge
+{
+  int source, dest;
+  public Edge(int source, int dest) 
+  {
+    this.source = source;
+    this.dest = dest;
+  }
+};
+class Main
+{
+  List<List<Integer>> adjList = null;
+
+  Main(List<Edge> edges, int N)
+  {
+    adjList = new ArrayList<>(N);
+    for (int i = 0; i < N; i++) 
+    {
+      adjList.add(i, new ArrayList<>());
+    }
+    for (int i = 0; i < edges.size(); i++)
+    {
+      int src = edges.get(i).source;
+      int dest = edges.get(i).dest;
+
+      adjList.get(src).add(dest);
+      adjList.get(dest).add(src);
+    }
+  }
+}
+class TestClass 
+{   
+  static boolean flag=false;
+  public static void printAllHamiltonianPaths(Main g, int v, boolean[] visited, List<Integer> path, int N)
+  {
+    if (path.size() == N)
+    {
+      flag=true;
+      return;
+    }
+    for (int w : g.adjList.get(v))
+    {
+      if (!visited[w])
+      {
+        visited[w] = true;
+        path.add(w);
+        printAllHamiltonianPaths(g, w, visited, path, N);
+
+        visited[w] = false;
+        path.remove(path.size()-1);
+      }
+    }
+  }
+  public static void main(String[] args)
+  {
+    TestClass obj = new TestClass();
+    Scanner in = new Scanner(System.in);
+    List<Edge> edges = new ArrayList<Edge>();
+    int n=in.nextInt();
+    int m=in.nextInt();
+    int graph[][] = new int[n][n];
+    for(int i=0;i<n;i++)
+      for(int j=0;j<n;j++)
+        graph[i][j]=0;
+    
+    for(int i=0;i<m;i++)
+    {
+      int a=in.nextInt();
+      int b=in.nextInt();
+      a--;
+      b--;
+      edges.add(new Edge(a,b));
+    }
+    Main g = new Main(edges, n);
+    int start = 0;
+    List<Integer> path = new ArrayList<>();
+    path.add(start);
+    boolean[] visited = new boolean[n];
+    visited[start] = true;
+    obj.printAllHamiltonianPaths(g, start, visited, path, n);
+    if(flag)
+      System.out.println(1);
+    else 
+      System.out.println(0);
+  }
+}
+
+
+
